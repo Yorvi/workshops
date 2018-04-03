@@ -1,0 +1,88 @@
+.rows {
+
+    display: block;
+    background-color: rgb(232,111,64);
+
+}
+
+.teamName{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 5px;
+  }
+  .teamName>p {
+    text-align: center;
+    padding:20px;
+    font-size: 30px;
+  }
+
+  img {
+    grid-row: 1;
+
+#row1 {
+
+    width: 25%;
+    height: 300px;
+    padding: 25px;
+    text-align: center;
+    margin: 20px;
+    font-size: 2.2em;
+    display: inline-block;
+    
+}
+
+#row2 {
+
+    width: 25%;
+    height: 300px;
+    padding: 25px;
+    text-align: center;
+    margin: 20px;
+    font-size: 2.2em;
+    display: inline-block;
+    
+}
+
+#row3 {
+
+    width: 25%;
+    height: 300px;
+    padding: 25px;
+    text-align: center;
+    margin: 20px;
+    font-size: 2.2em;
+    display: inline-block;
+    
+}
+
+#row4 {
+
+    width: 25%;
+    height: 300px;
+    padding: 25px;
+    text-align: center;
+    margin: 20px;
+    font-size: 2.2em;
+    display: inline-block;
+    
+}
+
+
+@font-face {
+   font-family: "Naruto Font";
+   src: url("/Users/yorvinrosario/Library/Fonts/njnaruto.ttf") format("truetype");
+
+}
+
+p {
+    text-align: center;
+    font-family: "Naruto Font", Geneva, sans-serif;
+    color: rgb(0,54,104)
+}
+
+.teamName {
+    
+    font-size: 50px;
+
+}

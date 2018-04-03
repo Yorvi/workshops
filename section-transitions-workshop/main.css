@@ -1,0 +1,57 @@
+
+div {
+    height: 800px;
+    animation: show .6s forwards;
+}
+
+.pic1 {
+    margin-right: 15px;
+    width: 50%;
+    padding: 30px 0px;
+    float: left;
+}
+
+#caption {
+    font-size: 18px;
+    text-align: center;
+}
+
+.one {
+    opacity: 0;
+    background-color: #3BFB42;
+    font-size: 25px;
+}
+
+.two {
+    opacity: 0;
+    background-color: #6B9CF9;
+}
+
+.rockLee {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three {
+    opacity: 0;
+    background-color: #A62C38;
+    font-size: 25px;
+
+}
+
+.four {
+    opacity: 0;
+    background-color: #F99508;
+    text-align: center;
+    font-size: 20px;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
